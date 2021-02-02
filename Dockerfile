@@ -2,5 +2,5 @@ FROM tomcat
 WORKDIR /usr/local/tomcat/webapps
 RUN mkdir hello
 WORKDIR hello
-COPY javawebapp-master .
+COPY myapp .
 expose 8080
